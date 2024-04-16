@@ -6,7 +6,7 @@ import { firstValueFrom } from 'rxjs';
 export class HttpCustomService {
   constructor(private readonly httpService: HttpService) {}
   token: string =
-    'EAAFaOs8JXSUBO516XrpfmVXQZA0WtdykRdoBuZC0dlQJJhwxtIKOvBNwWUQBYEOtMCOlhOM4ZBmUaf6uKEWABTlZCXJmshiFrExJPzeNkZB1lRxks2JnJswZCc4uSvS0ZAvjgQr2WbLjgLZBIDNTPUDFwU7SmuSm4akdrOUdj2B984p7ZB5C3wA1npeJfA3RvneM1lNE9kdNqiGfnEeJA7EZBKjAZBMKNgZD';
+    'EAAFaOs8JXSUBOzsH4sIMeLFZAhrnxeAepn5657mjeElZA0Vb0gdCyXcfGkC8xUYdgCtBoCR6IwBCiSRYpihuNga6b4wZBMHprc24bGL3M5beyMgGU0ZAZBW7nOWWsqnfjaLZAsP5fxxF343DwbvEQoRRglCAKA1uhgPjG51KMR3MG0vGm75mpNGLus68IPdJIZAR7rEVBQo0K2ZAYhMXflNZCIAcTpb0ZD';
 
   PhoneNumberOne: string = '573008059938';
   PhoneNumberTwo: string = '573008059938';
