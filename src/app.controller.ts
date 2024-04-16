@@ -1,6 +1,6 @@
-import { Controller, Get, Post, Req } from "@nestjs/common";
+import { Controller, Get, Post, Req } from '@nestjs/common';
 import { AppService } from './app.service';
-import { request } from "express";
+import { Request } from 'express';
 
 @Controller()
 export class AppController {
@@ -11,27 +11,21 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Post("/Category1Emergency")
-  Category1Emergency(@Req() req: Request): void {
-    console.log(req.body)
-    this.appService.Category1Emergency();
+  @Post('/Category1Emergency')
+  Category1Emergency(@Req() req: Request): number {
+    console.log('pasa controller 1');
+    return this.appService.Category1Emergency(req.body.lat, req.body.lon);
   }
 
-  @Post("/Category1EmergencyFamily")
-  Category1EmergencyFamily(@Req() req: Request): void {
-    console.log(req.body)
-    this.appService.Category1EmergencyFamily();
+  @Post('/Category2Emergency')
+  Category2Emergency(@Req() req: Request): number {
+    console.log('pasa controller 2');
+    return this.appService.Category2Emergency(req.body.lat, req.body.lon);
   }
 
-  @Post("/Category2Emergency")
-  Category2Emergency(@Req() req: Request): void {
-    console.log(req.body)
-    this.appService.Category2Emergency();
-  }
-
-  @Post("/Category3Emergency")
-  Category3Emergency(@Req() req: Request): void {
-    console.log(req.body)
-    this.appService.Category3Emergency();
+  @Post('/Category3Emergency')
+  Category3Emergency(@Req() req: Request): number {
+    console.log('pasa controller 3 ' + req.body.hola);
+    return this.appService.Category3Emergency(req.body.lat, req.body.lon);
   }
 }
