@@ -8,9 +8,9 @@ export class HttpCustomService {
   token: string =
     'EAAFaOs8JXSUBOzsH4sIMeLFZAhrnxeAepn5657mjeElZA0Vb0gdCyXcfGkC8xUYdgCtBoCR6IwBCiSRYpihuNga6b4wZBMHprc24bGL3M5beyMgGU0ZAZBW7nOWWsqnfjaLZAsP5fxxF343DwbvEQoRRglCAKA1uhgPjG51KMR3MG0vGm75mpNGLus68IPdJIZAR7rEVBQo0K2ZAYhMXflNZCIAcTpb0ZD';
 
-  PhoneNumberOne: string = '573008059938';
-  PhoneNumberTwo: string = '573008059938';
-  PhoneNumberThree: string = '573008059938';
+  PhoneNumberOne: string = '573226078089';
+  PhoneNumberTwo: string = '573122813848';
+  PhoneNumberThree: string = '573126647762';
   FirstName: string = 'Jaider Joham';
   LastName: string = 'Morales Franco';
   IdentityDocument: string = '1004597758';
